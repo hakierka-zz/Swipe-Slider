@@ -1,0 +1,80 @@
+* {
+  font-family: "Lato", sans-serif;
+  font-size: 17px; }
+
+body {
+  background-color: gray; }
+
+.background {
+  display: flex;
+  flex-direction: column; }
+
+.back-one {
+  background-color: #ebebeb;
+  height: 15px;
+  width: 45%;
+  max-width: 600px;
+  align-self: center; }
+
+.back-two {
+  background-color: #e4e4e4;
+  height: 15px;
+  width: 40%;
+  align-self: center; }
+
+.swiper-container {
+  width: 50%;
+  height: auto; }
+
+.swiper-slide {
+  background-color: white; }
+
+.invite {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #f1f1f1;
+  color: #191515;
+  letter-spacing: px; }
+
+.studio {
+  padding: 2rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #727778;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .studio b {
+    color: #191515; }
+  .studio img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem; }
+  .studio p {
+    margin: 0; }
+
+.description {
+  color: #727778;
+  width: 80%;
+  margin: auto;
+  text-align: center; }
+
+.decision {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .decision div {
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #f9f9f9;
+    text-transform: uppercase;
+    color: #191515; }
+    .decision div:hover {
+      background-color: #009fe8;
+      color: #ffffff; }
+
+/*# sourceMappingURL=style.css.map */
